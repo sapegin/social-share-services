@@ -1,0 +1,42 @@
+{
+  "name": "social-share-services",
+  "version": "1.0.0",
+  "description": "Social share sites data: icon, popup URL, etc.",
+  "author": {
+    "name": "Artem Sapegin",
+    "url": "http://sapegin.me"
+  },
+  "homepage": "https://github.com/sapegin/social-share-services",
+  "repository": "sapegin/social-share-services",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix",
+    "pretest": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-tamia": "^3.3.2"
+  },
+  "keywords": [
+    "share",
+    "social",
+    "network",
+    "site",
+    "like",
+    "facebook",
+	  "linkedin",
+	  "odnoklassniki",
+	  "pinterest",
+	  "plusone",
+	  "telegram",
+	  "twitter",
+	  "vkontakte"
+  ]
+}
